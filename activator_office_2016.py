@@ -17,6 +17,7 @@ def whichVersion():
         return 2
     else:
         print(" [ERROR] > Could not find Office installation")
+        input(" PRESS [ENTER] TO EXIT...")
 
 def is_admin(): # CHECKS IF CURRENT USER IS ADMIN
     try:
