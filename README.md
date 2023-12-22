@@ -6,3 +6,5 @@ This repository hosts text files containing links to download official MS office
 Scripts do not require any additional dependencies to be installed. It takes advantage of libraries that are already included in Python Standart Library: <code>os</code>,  <code>ctypes</code> and <code>sys</code>.
 
 Scripts had been written in <code>Python 3.11.1</code> and tested on <code>Windows 10 22H2</code> machine.   
+
+DISCLAIMER: The scripts for KMS activation proveded here are meant to be used as a template that should be modified for use with the license You purchased. The scripts intended purpose is to make extensive deployments to multiple machines easier. I do not take any responsibility for damages that rise from use or failure to use provided software.
