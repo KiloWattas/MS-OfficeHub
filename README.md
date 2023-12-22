@@ -7,4 +7,6 @@ Scripts do not require any additional dependencies to be installed. It takes adv
 
 Scripts had been written in <code>Python 3.11.1</code> and tested on <code>Windows 10 22H2</code> machine.   
 
+<code>KNOWN BUGS: Absolute path to system file must contain no spaces, otherwise the script will crash upon evoking UAC prompt. This will be fixed in the future.</code>
+
 DISCLAIMER: The scripts for KMS activation proveded here are meant to be used as a template that should be modified for use with the license You purchased. The scripts intended purpose is to make extensive deployments to multiple machines easier. I do not take any responsibility for damages that rise from use or failure to use provided software.
