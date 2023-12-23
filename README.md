@@ -7,6 +7,6 @@ Scripts do not require any additional dependencies to be installed. It takes adv
 
 Scripts had been written in <code>Python 3.11.1</code> and tested on <code>Windows 10 22H2</code> machine.   
 
-**USAGE: Download the folder containing scripts for downloading and activating MS Office. Run <code>Manager.py</code> and follow instruction in the script.'**
+**USAGE: Download the folder containing scripts for downloading and activating MS Office. Run <code>Manager.py</code> and follow instructions in the script.**
 
 DISCLAIMER: The scripts for KMS activation proveded here are meant to be used as a template that should be modified for use with the license You purchased. The scripts intended purpose is to make extensive deployments to multiple machines easier. I do not take any responsibility for damages that rise from use or failure to use provided software.
