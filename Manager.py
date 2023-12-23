@@ -32,6 +32,9 @@ def Choices():
 
         if choice == "1":
 
+            print(" [TXT] > NOTE THAT IN ORDER TO AVOID ANY COMPATIBILITY ERRORS IT IS HIGHLY RECOMMENDED TO UNINSTALL OLD VERSION OF MS OFFICE\n         AND REMOVE ANY RESIDUAL LICENSES BEFORE INSTALLING AND ACTIVATING NEW OFFICE PRODUCT.")
+            print(" ")
+            
             if version == "1":
                 print(" [SEL] > Version selected: OFFICE 2016")
                 file = "link_office_2016_ProPlus.txt"
@@ -41,16 +44,14 @@ def Choices():
                     with open (file, 'r') as doc:
                         link1, link2 = map(str, doc.read().splitlines())
                         del link1
-                        print(" [SYS] > Downloading...")
+                        print(" [SYS] > Searching for links...")
                         system (f"start {link2}")
-                        input()
                 elif arch == "2":
                     with open (file, 'r') as doc:
                         link1, link2 = map(str, doc.read().splitlines())
                         del link2
-                        print(" [SYS] > Downloading...")
+                        print(" [SYS] > Searching for links...")
                         system (f"start {link1}")
-                        input()
 
             elif version == "2":
                 print(" [SEL] > Version selected: OFFICE 2019")
@@ -58,9 +59,8 @@ def Choices():
                 file = "link_office_2019_ProPlus.txt"
                 with open (file, 'r') as doc:
                     link1 = doc.read()
-                    print(" [SYS] > Downloading...")
+                    print(" [SYS] > Searching for links...")
                     system (f"start {link1}")
-                    input()
 
             elif version == "3":
                 print(" [SEL] > Version selected: OFFICE 2021")
@@ -68,11 +68,11 @@ def Choices():
                 file = "link_office_2021_ProPlus.txt"
                 with open (file, 'r') as doc:
                     link1 = doc.read()
-                    print(" [SYS] > Downloading...")
+                    print(" [SYS] > Searching for links...")
                     system (f"start {link1}")
-                    input()
             else:
                 print(" [ERR] > Invalid Office version selected")
+                
 
         elif choice == "2":
             system("cmd /c mkdir c:\\KMS")
